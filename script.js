@@ -68,8 +68,8 @@ class particle{
     draw(){
         ctx.fillStyle = "red";
         ctx.strokeStyle = "#FF6363";
-        ctx.shadowBlur = 200;
-        ctx.shadowColor = "black";
+//         ctx.shadowBlur = 200;
+//         ctx.shadowColor = "black";
         ctx.beginPath();
         ctx.arc(this.x, this.y, 50, 0, Math.PI * 2);
         ctx.fill();
